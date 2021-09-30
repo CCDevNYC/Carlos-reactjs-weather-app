@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Droid Sans", "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: rgb(6, 57, 92);
+  font-size: 1.4em;
+  min-width: 70%;
+  max-width: 60vw;
+  margin: 40px auto 50px;
+  padding: 0 10px 40px;
+  border: 2px solid rgb(8, 2, 94);
+}
+.app {
+  max-width: 300px;
+  height: 500px;
+}
+h2 {
+  padding: 30px 0;
+  color: rgb(245, 230, 17);
+  font-size: 2em;
+  font-weight: 800;
+}
+.location{
+  color:rgb(30, 238, 75);
+  font-size: 2em;
+  font-weight: 800;
+}
+.location-box .date {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 800;
+}
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  display: inline-block;
+  margin: 30px 0 10px;
+  padding: 3px 20px;
+  font-size: 2em;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.3);
+  border: 2px solid #fff;
+}
+
+.weather-box .temp sup {
+  font-size: 0.5em;
+}
+.icon {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.weather {
+  margin-bottom: 20px;
+  margin-top: -25px;
+  text-transform: capitalize;
+  color: rgb(30, 238, 75);
+  font-weight: 800;
+}
+.search-bar {
+  padding: 10px;
+  outline: none;
+  border: 3px solid rgb(245, 230, 17);
+  margin: 20px 0;
+}
+.description {
+  max-width: 80%;
+  min-width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid white;
+  border-radius: px;
+}
+.description > div {
+  margin: 15px;
+}
+.description span {
+  font-size: 1em;
+  color: rgb(30, 238, 75);
+}
+.switch-temp{
+  display: block;
+  padding: 3px 8px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+}
